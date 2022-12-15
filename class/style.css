@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+body {
+    font-family: 'Jost', sans-serif;
+    background-color:khaki;
+}
+
+#navbar {
+    background-color:black;
+    height: 200px;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    flex-direction: column;
+}
+
+#navbar a {
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color:aqua;
+}
+
+.flexy {
+    display: flex;
+    justify-content: center;
+}
+
+.flexy2 {
+    display: flex;
+    justify-content: right;
+}
+
+.classtest {
+    background-color: brown;
+    font-size: 36pt;
+    width: 75%;
+    display: flex;
+}
+
+.dog {
+    width: 40%;
+    /* border: solid 10px white; */
+    border: solid;
+    border-bottom-style: dashed;
+    border-top-style: double;
+    border-left-style: groove;
+    border-right-style: inset;
+    border-width: 10px;
+    margin: 50px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color:hotpink;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-size: 60pt;
+    text-align: center;
+    border: 10px;
+}
+
+p {
+    color:coral;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 10pt;
+    text-align: center;
+}
+
+a {
+    color:deeppink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+}
+
+h2 {
+    text-align:justify;
+}

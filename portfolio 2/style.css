@@ -28,7 +28,7 @@ body {
     .maincontainer {
         background-color: aquamarine;
         display: flex;
-        width: 98%;
+        width: 1870px;
         height: 870px;
         border-color: black;
         border: 5px;
@@ -43,70 +43,100 @@ body {
             justify-content: left;
         }
 
-            #name {
+            .nameandnav {
                 display: flex;
-                font-family: 'Jost', sans-serif;
+                height: 400px;
                 flex-direction: column;
-                padding: 15px;
+                align-content: space-between;
+                padding: 10px;
+                line-height: 0;
             }
 
-                h1 {
+                #name {
+                    display: flex;
                     font-family: 'Jost', sans-serif;
-                    font-size: 40px;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding: 15px;
                 }
 
-                h2 {
+                    h1 {
+                        font-family: 'Jost', sans-serif;
+                        font-size: 40px;
+                    }
+
+                    h2 {
+                        font-family: 'Jost', sans-serif;
+                        font-size: 140px;
+                    }
+
+                #navbar {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 350px;
                     font-family: 'Jost', sans-serif;
-                    font-size: 120px;
+                    font-size: 20pt;
+                    padding: 15px;
                 }
 
-            .navbar {
-                font-family: 'Jost', sans-serif;
-                font-size: 20pt;
-                padding: 15px;
-            }
+                #navbar a {
+                    font-family: 'Jost', sans-serif;
+                    font-size: 20pt;
+                    text-decoration: none;
+                }
 
-            .about {
+                #nabar a:hover {
+                    color:coral
+                }
+
+                .about {
+                    display: flex;
+                    overflow-y: scroll;
+                    -ms-overflow-style: none;
+                    scrollbar-width: none;
+                    flex-direction: column;
+                    height: 570px;
+                    font-family: 'Jost', sans-serif;
+                    font-size: 25px;
+                    justify-content: right;
+                    padding: 15px;
+                }
+
+            .right {
                 display: flex;
-                overflow-y: scroll;
-                -ms-overflow-style: none;
-                scrollbar-width: none;
+                width: 45%;
                 flex-direction: column;
-                height: 570px;
-                font-family: 'Jost', sans-serif;
-                font-size: 25px;
                 justify-content: right;
-                padding: 15px;
             }
 
-        .right {
-            display: flex;
-            width: 45%;
-            flex-direction: column;
-            justify-content: right;
-        }
+                .musicplayer {
+                    display: flex;
+                    justify-content: right;
+                    padding: 15px;
+                    flex-direction: column;
+                }
 
-            .examples {
-                display: flex;
-                overflow-y: scroll;
-                -ms-overflow-style: none;
-                scrollbar-width: none;
-                flex-direction: column;
-                height: 570px;
-                font-family: 'Jost', sans-serif;
-                font-size: 25px;
-                justify-content: right;
-                padding: 15px;
-            }
+                .examples {
+                    display: flex;
+                    overflow-y: scroll;
+                    -ms-overflow-style: none;
+                    scrollbar-width: none;
+                    flex-direction: column;
+                    height: 570px;
+                    font-family: 'Jost', sans-serif;
+                    font-size: 25px;
+                    justify-content: right;
+                    padding: 15px;
+                }
 
-            examples::-webkit-scrollbar {
-                display: none;
-            }
+                examples::-webkit-scrollbar {
+                    display: none;
+                }
 
-            #pagetitle {
-                display: flex;
-                font-family: 'Jost', sans-serif;
-                justify-content: right;
-                align-items: flex-end;
-                padding: 15px;
-            }
+                #pagetitle {
+                    display: flex;
+                    font-family: 'Jost', sans-serif;
+                    justify-content: right;
+                    align-items: flex-end;
+                    padding: 15px;
+                }
